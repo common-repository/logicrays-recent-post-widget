@@ -1,0 +1,46 @@
+.widget .widget-inner, .widget .tabs_content{
+	padding: 5px 10px;
+    position: relative;
+}
+.post-warpper{
+	margin: 20px 0px;
+	min-height: 55px;
+	display: block;
+	position: relative;
+	clear: both;
+	overflow: hidden;
+}
+.widget .widget-posts-lists .post-warpper .post-thumb{
+	position: absolute;
+	width: 55px;
+    height: 55px;
+}
+.widget .widget-posts-lists .post-warpper .post-caption{
+	padding-left: 70px;
+    width: 100%;
+    float: left;
+}
+.widget .widget-posts-lists .post-warpper h3{
+	font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+}
+.widget .widget-posts-lists .post-warpper .post-meta{
+	font-size: 11px;
+    line-height: 16px;
+	color: #AAA;
+}
+.post-meta .date{display:block !important;margin-right: 10px;	}
+.widget .widget-posts-lists .post-warpper h3{
+	border-bottom: 1px #f0f0f0 dotted;
+    border-bottom-color: rgba(0,0,0,0.15);
+}
+.widget-inner .slick-prev,
+.widget-inner .slick-next {padding: 5px 10px;font-size: 10px !important;}
